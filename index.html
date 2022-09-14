@@ -12,6 +12,15 @@
       href="./images/favicon-32x32.png"
     />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
     <title>Frontend Mentor | NFT preview card component</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -43,12 +52,17 @@
         <p class="eth">
           <img src="images/icon-ethereum.svg" /><span>0.041 ETH</span>
         </p>
-        <p class="day_left">3 days left</p>
+        <p class="day_left">
+          <img src="images/icon-clock.svg" />
+          <span>3 days left</span>
+        </p>
       </div>
 
       <div class="author">
-        <img src="images/image-avatar.png" class="author_img" />
-        <p class="author_text">Creation of Jules Wyvern</p>
+        <div class="author_img">
+          <img src="images/image-avatar.png" />
+        </div>
+        <p class="author_text">Creation of <span>Jules Wyvern</span></p>
       </div>
     </div>
 
